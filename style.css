@@ -1,0 +1,114 @@
+body{
+	background-color: aqua;
+	color: red;
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:16px;
+	font-weight:normal;
+	/* Same as above */
+	font: normal 16px Arial, Helvetica, sans-serif;
+
+	line-height:1.6em;
+	margin:0;
+}
+ul{
+	list-style-type: none; /* Remove bullets */
+	padding: 0; /* Remove padding */
+	margin: 0; /* Remove margins */
+}
+.box-1{
+	background-color:#333;
+	color:#fff;
+
+	border-right:5px red solid;
+	border-left:5px red solid;
+	border-top:5px red solid;
+	border-bottom:5px red solid;
+	border-width:3px;
+	border-bottom-width:10px;
+	border-top-style:dotted;
+
+	border: 5px red solid;
+
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-right:20px;
+	padding-left:20px;
+
+	/* Same as above */
+	padding:20px;
+
+	margin-top:20px;
+	margin:20px 0;
+}
+
+.box-1:hover{
+	color: blue;
+	background-color: white;
+}
+
+/*---------------------
+ EDIT BUTTON CLASS 
+-----------------*/
+
+#button1{
+	background-color:#333;
+	color:#fff;
+	padding:10px 15px;
+	border:none;
+}
+
+#button1:hover{
+	background:red;
+	color:#fff;
+}
+
+.but-c1{
+	background-color: green;
+	color: white;
+	padding:10px 15px;
+	border:none;
+}
+
+.but-c1:hover{
+	background: white;
+	color: black;
+}
+
+
+/*FLEX BOX AT BOTTOM*/
+.flex-container {
+	/* We first create a flex layout context */
+	display: flex;
+	
+	/* Then we define the flow direction 
+	   and if we allow the items to wrap 
+	 * Remember this is the same as:
+	 * flex-direction: row;
+	 * flex-wrap: wrap;
+	 */
+	flex-flow: row wrap;
+	
+	/* Then we define how is distributed the remaining space */
+	justify-content: space-around;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+  
+.flex-item {
+	background: green;
+	padding: 5px;
+	width: 200px;
+	height: 150px;
+	margin-top: 10px;
+	line-height: 150px;
+	color: white;
+	font-weight: bold;
+	font-size: 3em;
+	text-align: center;
+}
+img.navBottom{
+	width: 200px;
+	height: 150px;
+}
