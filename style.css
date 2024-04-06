@@ -112,3 +112,21 @@ img.navBottom{
 	width: 200px;
 	height: 150px;
 }
+
+#lowerright
+{
+visibility: visible;
+padding: 10pt;
+margin: 10pt;
+border-style: solid;
+position: fixed;
+bottom: 0;
+right: 0px;
+width: 300;
+height: 250;
+border-style: solid;
+background-image: url('mask.jpg');
+li {
+	font-style: bold;
+	}
+}
